@@ -26,7 +26,9 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({
         </h3>
         
         <RadioGroup
-          value={selectedOption !== null ? selectedOption.toString() : undefined}
+          value={
+            selectedOption != null ? selectedOption.toString() : undefined
+          }
           className="space-y-3"
           onValueChange={(value) => onSelectOption(parseInt(value))}
         >

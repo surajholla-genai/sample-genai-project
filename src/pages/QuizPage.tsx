@@ -25,7 +25,7 @@ const QuizPage = () => {
   const quiz = sampleQuizzes.find(q => q.id === quizId);
   
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const [answers, setAnswers] = useState<number[]>([]);
+  const [answers, setAnswers] = useState<(number | null)[]>([]);
   const [quizCompleted, setQuizCompleted] = useState(false);
   const [showResults, setShowResults] = useState(false);
   const [timeTaken, setTimeTaken] = useState(0);
@@ -90,7 +90,7 @@ const QuizPage = () => {
   
   const currentQuestion = quiz.questions[currentQuestionIndex];
   const isLastQuestion = currentQuestionIndex === quiz.questions.length - 1;
-  const selectedOption = answers[currentQuestionIndex];
+  const selectedOption = answers[currentQuestionIndex] ?? null;
   
   // Count answered questions
   const answeredCount = answers.filter(answer => answer !== null).length;
@@ -179,9 +179,9 @@ const QuizPage = () => {
               </Button>
             </div>
             
-            <QuizQuestion 
+            <QuizQuestion
               question={currentQuestion}
-              selectedOption={answers[currentQuestionIndex]}
+              selectedOption={answers[currentQuestionIndex] ?? null}
               onSelectOption={handleSelectOption}
               showResults={true}
             />
