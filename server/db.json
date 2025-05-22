@@ -1,0 +1,173 @@
+{
+  "categories": [],
+  "quizzes": [
+    {
+      "id": "quiz_1747831849171",
+      "title": "Prompt Engineering",
+      "questions": [
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is prompt engineering?",
+          "options": [
+            "A software development methodology.",
+            "The process of designing and optimizing prompts to efficiently use language models.",
+            "A type of artificial intelligence.",
+            "A method for training machine learning models."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is a prompt in the context of AI?",
+          "options": [
+            "The model's output.",
+            "The input you provide to the model to elicit a specific response.",
+            "A type of neural network.",
+            "A programming language for AI."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "Name three elements of a prompt.",
+          "options": [
+            "Input, instructions, and examples.",
+            "Code, data, and algorithms.",
+            "Hardware, software, and networks.",
+            "Users, groups, and permissions."
+          ],
+          "answer": "option1",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is zero-shot prompting?",
+          "options": [
+            "Providing the model with multiple examples.",
+            "Providing the model with a direct instruction or question without any additional context or examples.",
+            "Fine-tuning the model on a specific task.",
+            "Using a pre-trained model without any modifications."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is few-shot prompting?",
+          "options": [
+            "Providing the model with no examples.",
+            "Providing the model with one or more examples of the desired input-output pairs before presenting the actual prompt.",
+            "Training the model from scratch.",
+            "Using a very large dataset for training."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is the role of context in prompt engineering?",
+          "options": [
+            "It is not important.",
+            "It helps the AI understand the desired task and generate more accurate and relevant outputs.",
+            "It is only relevant for code generation.",
+            "It is used for filtering inappropriate content."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is the benefit of specifying the desired output format in a prompt?",
+          "options": [
+            "It makes the prompt shorter.",
+            "It increases the chances that you get the output you want to see.",
+            "It reduces the computational cost.",
+            "It is only useful for text summarization."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "Give an example of a direct prompt.",
+          "options": [
+            "\"Write a short story\".",
+            "Providing several examples of question-answer pairs.",
+            "Asking the model to explain its reasoning.",
+            "Providing a detailed background on the topic."
+          ],
+          "answer": "option1",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is Chain of Thought prompting?",
+          "options": [
+            "A method for generating random text.",
+            "A technique that encourages the model to break down complex reasoning into a series of intermediate steps.",
+            "A way to encrypt prompts for security.",
+            "A method for parallel processing of prompts."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        },
+        {
+          "topic": "Prompt Engineering",
+          "question": "What is the meaning of LLM?",
+          "options": [
+            "Low-Level Machine.",
+            "Large Language Model.",
+            "Limited Learning Machine.",
+            "Local Language Machine."
+          ],
+          "answer": "option2",
+          "level": "Easy",
+          "tags": [
+            "prompt",
+            "LLM"
+          ]
+        }
+      ],
+      "createdAt": "2025-05-21T12:50:49.171Z"
+    }
+  ],
+  "results": []
+}

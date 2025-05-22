@@ -1,0 +1,4 @@
+topic,question,option1,option2,option3,option4,right_answer,level_difficulty,tags
+Math,What is 2+2?,1,2,3,4,4,Easy,"math,basic"
+Math,What is 5*6?,20,30,40,50,30,Easy,"multiplication"
+Science,Water's chemical formula?,H2O,CO2,O2,N2,H2O,Easy,"chemistry"
